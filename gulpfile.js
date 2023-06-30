@@ -4,6 +4,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const plumber = require('gulp-plumber');
 const notify = require('gulp-notify');
+const purgecss = require('gulp-purgecss')
 
 const paths = {
     src: 'sepcss/**/*.scss',
@@ -17,6 +18,9 @@ gulp.task('styles', () => {
         .pipe(plumber({ errorHandler: notify.onError('Error: <%= error.message %>') }))
         .pipe(sass())
         .pipe(autoprefixer())
+        .pipe(purgecss({
+            content: ['*.html']
+        }))
         .pipe(cleanCSS())
         .pipe(gulp.dest(paths.dest));
 });
