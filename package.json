@@ -1,0 +1,24 @@
+{
+  "name": "sepcss",
+  "version": "1.0.0",
+  "description": "CSS Library ",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "gulp",
+    "watch:css": "gulp"
+  },
+  "author": "Sepehr Mohseni",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.63.4"
+  }
+}
