@@ -1,4 +1,3 @@
-```
 # SepCSS
 
 SepCSS is a CSS framework designed to provide a lightweight and customizable set of styles for web development projects.
