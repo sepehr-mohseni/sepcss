@@ -41,8 +41,3 @@ SepCSS is released under the [MIT License](https://github.com/sepmsi/sepcss/blob
 - Special thanks to all the contributors who have helped shape and improve SepCSS.
 
 ---
-
-Please note that this is a generated README document based on the provided information. You may need to review and customize it further to accurately reflect your project.
-```
-
-Feel free to copy and paste this code into your README.md file in your code repository.
